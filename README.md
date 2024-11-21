@@ -1,3 +1,8 @@
+## Tela Inicial
+Abaixo está a imagem da tela inicial da aplicação BurguerMania:
+
+![home](https://github.com/user-attachments/assets/7e3aea98-5033-4b23-a71b-e4a2743a8243)
+
 # Projeto BurguerMania - Aplicação Web de Pedido de Hambúrguer
 
 ## Descrição do Projeto
