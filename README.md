@@ -69,4 +69,4 @@ Embora o projeto tenha sido desenvolvido com o foco em componentização e uma e
 - **Integração com uma API de pedidos**: O projeto atualmente não possui integração com uma API backend. Em futuras versões, planejo integrar uma API para gerenciar pedidos e dados de cardápio.
 
 ## Links
-- **Projeto Figma**: [BurguerMania no Figma](https://www.figma.com/file/xyz123)
+- **Projeto Figma**: [BurguerMania no Figma]([https://www.figma.com/file/xyz123](https://www.figma.com/design/ZVUq3b0IH9fYUHESjmv6NB/BurguerMania?node-id=1-2&node-type=canvas&t=DSXPtFfVyFp09HOe-0))
