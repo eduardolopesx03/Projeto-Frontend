@@ -1,9 +1,9 @@
+# Projeto BurguerMania - Aplicação Web de Pedido de Hambúrguer
+
 ## Tela Inicial
 Abaixo está a imagem da tela inicial da aplicação BurguerMania:
 
 ![home](https://github.com/user-attachments/assets/7e3aea98-5033-4b23-a71b-e4a2743a8243)
-
-# Projeto BurguerMania - Aplicação Web de Pedido de Hambúrguer
 
 ## Descrição do Projeto
 O **BurguerMania** é um projeto desenvolvido com AngularJS, criado para proporcionar uma experiência de pedido de hambúrgueres de forma simples e intuitiva. O projeto foi desenvolvido com base no design fornecido no Figma e visa entregar uma aplicação responsiva e funcional, que permite aos usuários navegar entre as páginas de pedidos e cardápios de forma fácil.
