@@ -1,4 +1,3 @@
-```markdown
 # Projeto BurguerMania - Aplicação Web de Pedido de Hambúrguer
 
 ## Descrição do Projeto
@@ -66,4 +65,3 @@ Embora o projeto tenha sido desenvolvido com o foco em componentização e uma e
 
 ## Links
 - **Projeto Figma**: [BurguerMania no Figma](https://www.figma.com/file/xyz123)
-```
