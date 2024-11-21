@@ -12,12 +12,12 @@ A aplicação inclui componentes reutilizáveis, como cabeçalhos, botões, card
 ## Instruções para Executar a Aplicação
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seu_usuario/burguer-mania.git
+   git clone https://github.com/seu_usuario/Projeto-Frontend.git
    ```
 
 2. **Navegue até o diretório do projeto:**
    ```bash
-   cd burguer-mania
+   cd Projeto-Frontend
    ```
 
 3. **Instale as dependências**: Certifique-se de ter o Node.js e o Angular CLI instalados em seu ambiente. Caso não tenha, instale o Angular CLI com o comando:
@@ -55,7 +55,7 @@ Os principais componentes desenvolvidos são:
 A navegação entre as páginas foi implementada utilizando o roteamento do Angular. As principais rotas incluem:
 - **/pedido**: Página de pedidos.
 - **/cardapio**: Página que exibe as categorias de hambúrgueres.
-- **/categoria/:id**: Página que exibe os hambúrgueres de uma categoria específica.
+- **/cardapio/:id**: Página que exibe os hambúrgueres de uma categoria específica.
 
 ## Possíveis Melhorias Futuras
 Embora o projeto tenha sido desenvolvido com o foco em componentização e uma estrutura responsiva, algumas melhorias podem ser feitas no futuro:
