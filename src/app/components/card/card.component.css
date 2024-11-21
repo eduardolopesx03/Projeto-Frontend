@@ -1,0 +1,40 @@
+/* card.component.css */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .imagem-prato {
+    width: 60%; /* Largura proporcional */
+    border-radius: 8px; /* Bordas arredondadas */
+    margin-bottom: 20px; /* Espaçamento inferior */
+  }
+  
+  .nome-prato {
+    font-size: 24px;
+    font-weight: bold;
+    color: #521D16; /* Cor marrom */
+    margin-bottom: 10px;
+  }
+  
+  .preco-prato {
+    font-size: 40px;
+    font-weight: bold;
+    color: #521D16; /* Cor marrom */
+    margin-bottom: 10px;
+  }
+  
+  .descricao-texto1 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.6;
+  }
+  
+  .informacoes {
+    text-align: center;
+    margin-top: -25px;
+  }
+  

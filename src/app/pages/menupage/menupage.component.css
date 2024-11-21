@@ -1,0 +1,127 @@
+/* Título da página */
+.titulo-pagina {
+    font-size: 45px;
+    font-weight: bold;
+    color: #ED1B00; /* Cor vermelha */
+    margin-bottom: 50px; /* Espaçamento abaixo */
+}
+
+/* Imagem do prato */
+.imagem-prato {
+    width: 60%; /* Largura proporcional */
+    border-radius: 8px; /* Bordas arredondadas */
+    margin-bottom: 30px; /* Espaçamento inferior */
+}
+
+/* Nome do prato */
+.nome-prato {
+    font-size: 30px;
+    font-weight: bold;
+    color: #521D16; /* Marrom */
+    margin-bottom: 5px;
+}
+
+/* Preço do prato */
+.preco-prato {
+    font-size: 40px;
+    font-weight: bold;
+    color: #521D16; /* Marrom */
+    margin-bottom: 20px;
+}
+
+/* Caixa da descrição */
+.descricao-box {
+    padding: 20px;
+    margin: 0 auto; /* Mantém centralizado, mas sem espaçamento adicional */
+    border: 1px solid #A5A4A4; /* Borda cinza */
+    max-width: 650px; /* Ajusta a largura máxima */
+    max-height: 370px;
+    margin-top: 40px;
+}
+
+/* Título da descrição */
+.descricao-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Texto da descrição */
+.descricao-texto {
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 1.6; /* Melhor espaçamento */
+}
+
+.descricao-texto1 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+/* Botão comprar */
+.botao-comprar {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white; /* Texto branco */
+    background-color: #ED1B00; /* Vermelho */
+    border: 1px solid #ED1B00; /* Borda */
+    width: 266px; /* Largura fixa */
+    height: 74px; /* Altura fixa */
+    margin-top: 50px;
+    cursor: pointer; /* Cursor de mãozinha ao passar o mouse */
+    transition: background-color 0.3s, transform 0.3s; /* Animação suave para cor e transformação */
+}
+
+/* Efeito de hover: altera cor e aplica efeito de escala */
+.botao-comprar:hover {
+    background-color: #D51700; /* Tom mais escuro ao passar o mouse */
+}
+
+.informacoes {
+    margin-top: -45px;
+}
+
+/* Ajuste do layout para centralizar os componentes */
+.conteudo-detalhes {
+    display: flex; /* Ativa o Flexbox */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: flex-start; /* Alinha os itens ao topo */
+    gap: 50px; /* Espaço horizontal entre os dois componentes */
+    margin-top: 30px; /* Espaçamento superior adicional */
+}
+
+/* Estilo individual para cada coluna */
+app-card {
+    flex: 1; /* Cada componente ocupa uma parte proporcional do espaço disponível */
+    max-width: 45%; /* Limita a largura máxima do app-card */
+    text-align: center; /* Centraliza o conteúdo dentro do card */
+}
+
+.col-direita {
+    flex: 1; /* Garante que a descrição ocupe o espaço proporcional */
+    max-width: 45%; /* Limita a largura máxima */
+}
+
+/* Ajuste para telas menores a partir de 1024px */
+@media screen and (max-width: 1024px) {
+    .conteudo-detalhes {
+        flex-direction: column; /* Faz os itens ficarem empilhados, um embaixo do outro */
+        align-items: center; /* Centraliza os itens */
+        gap: 30px; /* Diminui o espaço entre os itens */
+    }
+
+    /* Garante que as colunas não fiquem muito grandes em telas menores */
+    app-card,
+    .col-direita {
+        max-width: 90%; /* Ajuste para que as colunas ocupem mais espaço na tela */
+    }
+}
+

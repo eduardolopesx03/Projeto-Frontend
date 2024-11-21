@@ -1,0 +1,49 @@
+.container {
+    background-color: #fff; /* Cor de fundo branco */
+    padding: 40px; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin: 20px auto; /* Margem superior/inferior e centralizado */
+    max-width: 800px; /* Largura máxima */
+    border: 2px solid #DFD9D9; /* Borda */
+}
+
+h1 {
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center; /* Centralizado */
+}
+
+.form-control {
+    border: 1px solid #ccc; /* Borda cinza */
+    padding: 10px; /* Espaçamento interno */
+    font-size: 1em; /* Tamanho da fonte */
+    margin-bottom: 15px; /* Espaçamento entre os campos */
+    width: 100%; /* Largura total */
+}
+
+.form-control:focus {
+    border-color: #dc3545; /* Borda vermelha ao focar */
+    box-shadow: 0 0 5px rgba(220, 53, 69, 0.5); /* Sombra ao focar */
+}
+
+.btn1 {
+    display: block; /* Torna o botão um bloco */
+    text-decoration: none; /* Remove sublinhado */
+    padding: 20px 30px; /* Espaçamento interno */
+    font-size: 20px; /* Tamanho da fonte */
+    font-weight: bold; /* Fonte em negrito */
+    width: 266px; /* Largura fixa */
+    height: 74px; /* Altura fixa */
+    text-align: center; /* Centraliza o texto */
+    margin: 50px auto 0; /* Margem superior de 50px, centralizado horizontalmente */
+    background-color: #ED0000; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove borda */
+}
+
+.btn1:hover {
+    background-color: #d00000; /* Tom mais escuro ao passar o mouse */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+}
+

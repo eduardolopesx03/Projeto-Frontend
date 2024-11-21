@@ -1,0 +1,42 @@
+{
+    "foodDetails": [
+      {
+        "id": 1,
+        "foodName": "X-Vegan",
+        "foodDetails": "Pão, Habúrguer, alface, tomate, queijo e maionese",
+        "foodImg": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRUlrE9olvBCYMARAAjEgm1Zfudlq5ukPywFoFcEI6BrJzWFJXH"
+      },
+      {
+        "id": 2,
+        "foodName": "X-Fitness",
+        "foodDetails": "Pão, Habúrguer, alface, tomate, queijo e maionese",
+        "foodImg": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRUlrE9olvBCYMARAAjEgm1Zfudlq5ukPywFoFcEI6BrJzWFJXH"
+      },
+      {
+        "id": 3,
+        "foodName": "X-infarto",
+        "foodDetails": "Pão, Habúrguer, alface, tomate, queijo e maionese",
+        "foodImg": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRUlrE9olvBCYMARAAjEgm1Zfudlq5ukPywFoFcEI6BrJzWFJXH"
+      },
+      {
+        "id": 4,
+        "foodName": "X-Alface-Premium",
+        "foodDetails": "Pão, Habúrguer, alface, tomate, queijo e maionese",
+        "foodImg": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRUlrE9olvBCYMARAAjEgm1Zfudlq5ukPywFoFcEI6BrJzWFJXH",
+        "foodPrice": 35
+      },
+      {
+        "id": 5,
+        "foodName": "X-Tomate",
+        "foodDetails": "Pão, Habúrguer, alface, tomate, queijo e maionese",
+        "foodImg": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRUlrE9olvBCYMARAAjEgm1Zfudlq5ukPywFoFcEI6BrJzWFJXH"
+      },
+      {
+        "id": 6,
+        "foodName": "X-Frutas",
+        "foodDetails": "Pão, Habúrguer, alface, tomate, queijo e maionese",
+        "foodImg": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRUlrE9olvBCYMARAAjEgm1Zfudlq5ukPywFoFcEI6BrJzWFJXH"
+      }
+    ]
+  }
+  

@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary-color: #521D16; /* Cor principal */
+    --secondary-color: #ED0000; /* Cor secundaria */
+    --font-family: 'Sans-serif'; /* Fonte padrão */
+}
+
+body {
+    font-family: var(--font-family);
+}

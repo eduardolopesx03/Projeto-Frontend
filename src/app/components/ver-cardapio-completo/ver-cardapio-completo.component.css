@@ -1,0 +1,23 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh; /* Ocupa a altura total da tela */
+    width: 100vw; /* Ocupa toda a largura da tela */
+}
+
+.acessarcardapio {
+    display: flex; /* Define Flexbox para o botão */
+    justify-content: center; /* Centraliza horizontalmente o texto */
+    align-items: center; /* Centraliza verticalmente o texto */
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ED1B00;
+    color: white;
+    border: 1px solid #ED1B00;
+    width: 404px; /* Largura fixa */
+    height: 74px; /* Altura fixa */
+    text-align: center;
+}
+

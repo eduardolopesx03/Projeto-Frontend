@@ -1,0 +1,38 @@
+/* Navbar */
+.navbar {
+    display: flex; /* Organiza itens horizontalmente */
+    justify-content: center; /* Centraliza o conteúdo */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 10px 40px; /* Espaçamento vertical */
+    background-color: white; /* Cor de fundo neutra */
+    margin-top: 15px;
+}
+
+/* Links da navbar */
+.navbar .navbar-nav .nav-link {
+    color: var(--primary-color); /* Cor global */
+    font-size: 20px; /* Novo tamanho da fonte */
+    font-weight: 500; /* Peso intermediário */
+    text-decoration: none; /* Remove sublinhado */
+    margin: 0 20px; /* Espaçamento entre links */
+    transition: color 0.3s ease; /* Transição suave no hover */
+}
+
+/* Hover */
+.navbar .navbar-nav .nav-link:hover {
+    color: darken(var(--primary-color), 10%); /* Cor mais escura no hover */
+    text-decoration: none; /* Não sublinha ao passar o mouse */
+}
+
+/* Link ativo */
+.navbar .navbar-nav .nav-link.active-link {
+    font-weight: bold; /* Destaca o link ativo */
+    text-decoration: none; /* Remove sublinhado do link ativo */
+}
+
+P {
+    color: #521D16;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 3px;
+}

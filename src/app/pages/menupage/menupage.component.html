@@ -1,0 +1,22 @@
+<!-- menupage.component.html -->
+<div class="container mt-5 mb-5">
+  <h1 class="text-center titulo-pagina">DETALHES</h1>
+
+  <div class="conteudo-detalhes">
+    <app-card
+      *ngIf="menuData.length > 0"
+      [foodImg]="menuData[0].foodImg"
+      [foodName]="menuData[0].foodName"
+      [foodDetails]="menuData[0].foodDetails"
+      [foodPrice]="menuData[0].foodPrice">
+    </app-card>
+
+    <div class="col-direita">
+      <app-descricao></app-descricao>
+    </div>
+  </div>
+
+  <div class="text-center mt-4">
+    <a class="botao-comprar">COMPRAR</a>
+  </div>
+</div>

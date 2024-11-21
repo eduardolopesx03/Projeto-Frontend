@@ -1,0 +1,63 @@
+/* Para telas maiores (como 1080p) */
+.banner {
+    background-image: url('../../../assets/img/image 3.png');
+    background-position: center top; /* Mantém a posição da imagem */
+    background-size: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+    height: 442px; /* Altura fixa para telas grandes */
+    width: 836px; /* Largura fixa para telas grandes */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.fazerpedido, .acessarcardapio {
+    display: block;
+    text-decoration: none;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 256px;
+    height: 66px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.fazerpedido {
+    background-color: #ED0000; 
+    color: white;
+}
+
+.acessarcardapio {
+    background-color: white; 
+    color: #521D16; 
+    border: 1px solid #ED1B00;
+}
+
+.acessarcardapio:hover {
+    background-color: #ED1B00;
+    color: white;
+}
+
+/* Ajuste para telas menores, usando media queries */
+@media screen and (max-width: 1024px) {
+    .banner {
+        height: 350px; /* Ajuste da altura para telas menores */
+        width: 100%; /* Deixa a largura ocupar toda a tela */
+    }
+}
+
+/* Para telas ainda menores (como celulares), ajusta ainda mais */
+@media screen and (max-width: 600px) {
+    .banner {
+        height: 250px; /* Reduz a altura do banner em telas muito pequenas */
+    }
+}

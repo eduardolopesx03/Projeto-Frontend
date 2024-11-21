@@ -1,0 +1,71 @@
+.foodbox {
+    padding: 10px 5px; /* Espaçamento interno da caixa de comida */
+    transition: border 0.3s ease; /* Suaviza a transição da borda */
+}
+
+/* Estilização da área de conteúdo (imagem, título e descrição) */
+.food-content {
+    padding: 15px; /* Espaçamento interno para o conteúdo */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: border 0.3s ease; /* Suaviza a transição da borda */
+}
+
+/* Estilização da imagem */
+.foodbox img {
+    width: 225px; /* Largura da imagem */
+    height: 225px; /* Altura fixa da imagem */
+    object-fit: cover; /* Ajusta a imagem dentro do espaço */
+    border-radius: 5px; /* Bordas arredondadas */
+    display: block; /* Garante que a imagem seja tratada como um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+/* Estilização do título */
+.foodbox h2 {
+    font-size: 30px;
+    color: var(--primary-color);
+    margin-top: -10px;
+    font-weight: bold;
+    text-align: center; /* Centraliza o texto */
+}
+
+h1 {
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 45px;
+}
+
+/* Estilização da descrição */
+.foodbox p {
+    width: 80%; /* Ajusta a largura do parágrafo */
+    word-wrap: break-word; /* Quebra palavras longas */
+    line-height: 1.6; /* Define o espaçamento entre as linhas */
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; /* Centraliza a descrição */
+    margin-left: 30px;
+}
+
+/* Aplica a borda ao passar o mouse */
+.foodbox:hover .food-content {
+    border: 1px solid #ED1B00; /* Define a borda */
+}
+
+/* Remove sublinhado e estilização padrão do link */
+.foodbox a {
+    text-decoration: none; /* Remove a sublinha */
+    color: inherit; /* Mantém a cor original do texto */
+}
+
+/* Garante que não haja sublinhado ao passar o mouse */
+.foodbox a:hover {
+    text-decoration: none;
+}
+
+/* Estilização para telas menores que 1024px */
+@media screen and (max-width: 1024px) {
+    .foodbox img {
+        width: 200px; /* Ajuste o tamanho da imagem para telas menores */
+        height: 200px; /* Ajuste a altura também */
+    }
+}

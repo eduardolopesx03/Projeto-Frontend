@@ -1,0 +1,23 @@
+<div class="container mt-4 mb-5">
+    <h1 class="text-center">CARDÁPIO</h1>
+    <div class="row d-flex justify-content-center" style="margin-top: 150px;">
+        <div class="col-lg-4" *ngFor="let fd of foodData">
+            <div class="foodbox">
+                <div class="food-content">
+                    <a *ngIf="fd.id === 1" [routerLink]="['/produto']">
+                        <img src="{{fd.foodImg}}" />
+                        <h2>{{fd.foodName}}</h2>
+                        <p>{{fd.foodDetails}}</p>
+                    </a>
+                    <div *ngIf="fd.id !== 1">
+                        <img src="{{fd.foodImg}}" />
+                        <h2>{{fd.foodName}}</h2>
+                        <p>{{fd.foodDetails}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-ver-cardapio-completo></app-ver-cardapio-completo>
