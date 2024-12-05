@@ -17,7 +17,7 @@ A aplicação inclui componentes reutilizáveis, como cabeçalhos, botões, card
 ## Instruções para Executar a Aplicação
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seu_usuario/Projeto-Frontend.git
+   git clone https://github.com/eduardolopesx03/Projeto-Frontend
    ```
 
 2. **Navegue até o diretório do projeto:**
