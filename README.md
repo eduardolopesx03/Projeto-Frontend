@@ -22,7 +22,7 @@ A aplicação inclui componentes reutilizáveis, como cabeçalhos, botões, card
 
 2. **Navegue até o diretório do projeto:**
    ```bash
-   cd Projeto-Frontend
+   cd Projeto-Frontend-master
    ```
 
 3. **Instale as dependências**: Certifique-se de ter o Node.js e o Angular CLI instalados em seu ambiente. Caso não tenha, instale o Angular CLI com o comando:
